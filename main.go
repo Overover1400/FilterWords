@@ -78,7 +78,7 @@ func FilterBadWords(content string) string {
 		}
 	}
 	
-	fmt.Println("main (297):::", time.Now().UnixNano()-startTime, "Milisecond long does it take (depended Your CPU ;) )")
+	fmt.Println("main (81):::", time.Now().UnixNano()-startTime, "Milisecond long does it take (depended Your CPU ;) )")
 	return content
 }
 
